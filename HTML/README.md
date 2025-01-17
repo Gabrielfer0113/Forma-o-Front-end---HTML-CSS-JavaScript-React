@@ -12,10 +12,6 @@
     <li>listas - ul, ol, li</li>
     <li>tabelas - table, tr, td</li>
     <li>div - div</li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
 </ul>
 
 
