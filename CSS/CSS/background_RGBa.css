@@ -1,0 +1,8 @@
+body {
+    background-color: gray;
+}
+
+#background_RGBa {
+    background-color: rgba(42, 156, 218, 0.2);
+    color: blue;
+}

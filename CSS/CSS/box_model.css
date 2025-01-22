@@ -1,0 +1,121 @@
+#box_model {
+    background-image: url(../../HTML/img/box_model.png);
+    background-position: center;
+    background-size: cover;
+
+    /* altura e largura do elemento */
+    height: 350px;
+    width: 500px;
+}
+
+#width_height {
+    background-color: red;
+    /* Altura */
+    height: 300px;
+
+    /* Largura */
+    width: 500px;
+}
+
+#without_padding, 
+#padding,
+#padding_individual{
+    background-color: 111;
+    color: black;
+}
+
+#padding {
+    padding: 20px;
+}
+
+#padding_individual {
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-right: 8px;
+}
+
+#regras_padding {
+    /* O padding segue a regra de top, right, bottom, left,
+        ao invés de escrevermor...*/
+    padding-top: 6px;
+    padding-right: 12px;
+    padding-bottom: 18px;
+    padding-left: 24px;
+
+    /* ... podemos usar...*/
+    padding: 10px 20px;
+}
+
+#regras_padding02 {
+    /* ... podemos usar...*/
+    padding: 10px 20px;
+}
+
+#without-border-box {
+    background-color: black;
+    color: white;
+    width: 400px;
+    padding: 50px;
+}
+
+#border-box {
+    background-color: gray;
+    color: white;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+#borda {
+    margin-top: 20px;
+    border: 5px solid red;
+}
+
+#borda-2 {
+    margin-top: 20px;
+    border: 2px dotted blue;
+}
+
+#bordas-left {
+    color: red;
+    border-left: 3px solid orange;
+    padding: 25px;
+}
+
+#bordas-bottom {
+    color: seagreen;
+    border-bottom: 5px solid purple;
+    padding: 5px 5px;
+}
+
+#redondo {
+    border: 4px solid blue;
+    background-color: orange;
+    color:  blue;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#redondo-2 {
+    background-color: red;
+    color: yellow;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#margin {
+    margin: 50px;
+    background-color: blue;
+}
+
+#margin-top {
+    margin-top: 100px;
+    background-color: gray;
+    padding: 10px;
+}
+
+#margin-shorthand {
+    background-color: red;
+    margin: 20px 30px 40px 50px;
+}

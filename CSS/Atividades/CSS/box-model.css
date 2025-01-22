@@ -1,0 +1,17 @@
+#box_model {
+    width: 50;
+    height: 80px;
+    background-color: violet;
+    border: 10px solid red;
+    border-radius: 15px;   
+    padding: 5px 15px;
+    margin: 15px 5px;
+    outline: 15px solid brown /* O outline cria uma borda fora da borda */
+}
+
+.texto {
+    color: crimson;
+    opacity: 0.8;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
