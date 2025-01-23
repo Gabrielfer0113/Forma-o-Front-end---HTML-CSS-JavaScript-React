@@ -1,0 +1,99 @@
+#relativo {
+    position: relative;
+    background-color: rgb(42, 25, 192);
+    color: rgb(177, 173, 173);
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 50px;
+}
+
+#absoluto {
+    position: absolute;
+    background-color: rgb(158, 123, 28);
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+}
+
+.relativo {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #111;
+    margin-top: 120px;
+    position: relative;
+}
+
+#absoluto-01, 
+#absoluto-02 {
+    height: 50px;
+    width: 50px;
+    border: 2px solid #111;
+    border-radius: 5px;
+    position: absolute;
+}
+
+#absoluto-01 {
+    background-color: rgb(255, 0, 0);
+    top: 0px;
+    left: 0px;
+}
+
+#absoluto-02 {
+    background-color: rgb(0, 255, 0);
+    top: 0px;
+    right: 0px;
+}
+
+.fixo {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    border: 2px solid red;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+
+.sticky {
+    background-color: aqua;
+    color: #111;
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    top: 0px;
+    left: 100px;
+}
+
+
+#absoluto-03,
+#absoluto-04,
+#absoluto-05 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+
+}
+
+#absoluto-03 {
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+}
+
+#absoluto-04 {
+    top: 20px;
+    left: 20px;
+    background-color: blue;
+    z-index: 2;
+}
+
+#absoluto-05 {
+    top: 40px;
+    left: 40px;
+    background-color: green;
+    z-index: 3;
+}
